@@ -1,0 +1,90 @@
+/* Exo 1 */
+
+.ex1 {
+    display: inline-block;
+    position: relative;
+}
+
+.ex1::after {
+    content: " ";
+    position: absolute;
+    left: 0;
+    display: inline-block;
+    height: 5px;
+    width: 0%;
+    bottom: -5px;
+    transition: transform 3s;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+.ex1:hover::after {
+    transform: scaleX(1);
+    width: 100%;
+    background-color: orangered;
+}
+
+/* fin Exo 1 */
+
+/* Exo 2 */
+
+
+.ex2 {
+    display: inline-block;
+    position: relative;
+}
+
+.ex2::after {
+    content: " ";
+    position: absolute;
+    left: 0;
+    display: inline-block;
+    height: 5px;
+    bottom: -5px;
+    width: 0%;
+    background-color: orangered;
+    transition: transform 3s;
+    transform-origin: center;
+    transform: scaleX(0);
+}
+
+.ex2:hover::after {
+    transform: scaleX(1);
+    width: 100%;
+    left: 0;
+    background-color: orangered;
+}
+
+/* fin Exo 2 */
+
+/* Exo 3 */
+
+.ex3 {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+}
+
+.ex3::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    display: inline-block;
+    height: 1em;
+    width: 0%;
+    background-color: orangered;
+    transition: transform 3s;
+    transform-origin: bottom;
+    transform: scaleY(0);
+}
+
+.ex3:hover::after {
+    transform: scaleY(1);
+    width: 100%;
+    left: 0;
+    height: 1em;
+    background-color: orangered;
+    z-index: -1;
+}
+
+/* fin Exo 3 */
