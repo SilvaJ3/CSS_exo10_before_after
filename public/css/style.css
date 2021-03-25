@@ -24,6 +24,34 @@
     background-color: orangered;
 }
 
+/* Correction Exo 1 - Gauthier */
+
+/* h1 {
+    padding: 0;
+    margin: 0;
+}
+
+#exo1 {
+    position: fixed;
+    top: 0px;
+}
+
+#exo1:hover::after {
+    content: "";
+    display: block;
+    border-bottom: chocolate solid 5px;
+    animation: born 2s;
+}
+
+@keyframes born {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 100%;
+    }
+} */
+
 /* fin Exo 1 */
 
 /* Exo 2 */
@@ -54,6 +82,29 @@
     left: 0;
     background-color: orangered;
 }
+
+/* Correction Exo 2 - Gauthier */
+
+/* #exo2 {
+    position: fixed;
+    top: 50px;
+}
+
+#exo2:hover::after {
+    content: "";
+    display: block;
+    border-bottom: chocolate solid 5px;
+    animation: open 2s;
+}
+
+@keyframes open {
+    0%{
+        transform: scaleX(0);
+    }
+    100%{
+        transform: scaleX(1);
+    }
+} */
 
 /* fin Exo 2 */
 
@@ -86,5 +137,35 @@
     background-color: orangered;
     z-index: -1;
 }
+
+/* Correctio exo 3 - Gauthier */
+
+/* #exo3 {
+    position: fixed;
+    top: 100px;
+}
+
+#exo3:hover::after {
+    content: "";
+    display: block;
+    background-color: chocolate;
+    animation: scan 2s forwards;
+    z-index: -1;
+    position: relative;
+    width: 100%;
+}
+
+@keyframes scan {
+    0%{
+        top: 0px;
+        height: 0px;
+    }
+    100%{
+        top: -28px;
+        height: 28px;
+    }
+} */
+
+
 
 /* fin Exo 3 */
